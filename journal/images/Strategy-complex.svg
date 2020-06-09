@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="820" viewBox="0 0 850 820">
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(330 21)">
+      <rect width="138" height="238" x="1" y="1" fill="#FFF" stroke="#1A1A1A" stroke-width="2" rx="8"/>
+      <text fill="#4A5568" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+        <tspan x="17.598" y="25">Main Strategy</tspan>
+      </text>
+      <rect width="118" height="188" x="11" y="41" fill="#FFF" stroke="#576BE3" stroke-width="2" rx="8"/>
+      <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+        <tspan x="31.754" y="65">AlgoStack</tspan>
+      </text>
+      <g transform="translate(20 80)">
+        <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+        <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+          <tspan x="25.344" y="25">Algo A</tspan>
+        </text>
+      </g>
+      <g transform="translate(20 130)">
+        <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+        <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+          <tspan x="25.477" y="25">Algo B</tspan>
+        </text>
+      </g>
+      <g transform="translate(20 180)">
+        <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+        <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+          <tspan x="25.008" y="25">Algo C</tspan>
+        </text>
+      </g>
+    </g>
+    <g transform="translate(20 330)">
+      <rect width="158" height="388" x="1" y="1" fill="#FFF" stroke="#1A1A1A" stroke-width="2" rx="8"/>
+      <text fill="#4A5568" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+        <tspan x="26.516" y="25">Substrategy A</tspan>
+      </text>
+      <g transform="translate(30 430)">
+        <rect width="100" height="40" fill="#576BE3" rx="8"/>
+        <text fill="#FFF" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+          <tspan x="21.266" y="25">Asset A</tspan>
+        </text>
+      </g>
+      <rect width="138" height="338" x="11" y="41" fill="#FFF" stroke="#576BE3" stroke-width="2" rx="8"/>
+      <rect width="118" height="188" x="21" y="131" fill="#FFF" stroke="#576BE3" stroke-width="2" rx="8"/>
+      <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+        <tspan x="41.754" y="155">AlgoStack</tspan>
+      </text>
+      <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+        <tspan x="41.754" y="65">AlgoStack</tspan>
+      </text>
+      <g transform="translate(30 170)">
+        <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+        <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+          <tspan x="19.645" y="25">Algo B.1</tspan>
+        </text>
+      </g>
+      <g transform="translate(30 80)">
+        <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+        <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+          <tspan x="25.344" y="25">Algo A</tspan>
+        </text>
+      </g>
+      <g transform="translate(30 220)">
+        <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+        <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+          <tspan x="18.426" y="25">Algo B.2</tspan>
+        </text>
+      </g>
+      <g transform="translate(30 270)">
+        <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+        <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+          <tspan x="18.32" y="25">Algo B.3</tspan>
+        </text>
+      </g>
+      <g transform="translate(30 330)">
+        <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+        <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+          <tspan x="25.008" y="25">Algo C</tspan>
+        </text>
+      </g>
+      <path fill="#1A1A1A" fill-rule="nonzero" d="M81,389.5 L81,416.5 L87,416.5 L80,430.5 L73,416.5 L79,416.5 L79,389.5 L81,389.5 Z"/>
+    </g>
+    <g transform="translate(200 330)">
+      <g transform="translate(40)">
+        <rect width="138" height="238" x="1" y="1" fill="#FFF" stroke="#1A1A1A" stroke-width="2" rx="8"/>
+        <text fill="#4A5568" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+          <tspan x="16.648" y="25">Substrategy B</tspan>
+        </text>
+        <rect width="118" height="188" x="11" y="41" fill="#FFF" stroke="#576BE3" stroke-width="2" rx="8"/>
+        <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+          <tspan x="31.754" y="65">AlgoStack</tspan>
+        </text>
+        <g transform="translate(20 80)">
+          <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+          <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+            <tspan x="25.344" y="25">Algo A</tspan>
+          </text>
+        </g>
+        <g transform="translate(20 130)">
+          <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+          <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+            <tspan x="25.477" y="25">Algo B</tspan>
+          </text>
+        </g>
+        <g transform="translate(20 180)">
+          <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+          <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+            <tspan x="25.008" y="25">Algo C</tspan>
+          </text>
+        </g>
+      </g>
+      <g transform="translate(0 280)">
+        <rect width="100" height="40" fill="#576BE3" rx="8"/>
+        <text fill="#FFF" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+          <tspan x="21.398" y="25">Asset B</tspan>
+        </text>
+      </g>
+      <g transform="translate(120 280)">
+        <rect width="100" height="40" fill="#576BE3" rx="8"/>
+        <text fill="#FFF" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+          <tspan x="20.93" y="25">Asset C</tspan>
+        </text>
+      </g>
+      <path fill="#1A1A1A" fill-rule="nonzero" d="M81 239L81 266 87 266 80 280 73 266 79 266 79 239 81 239zM141 239L141 266 147 266 140 280 133 266 139 266 139 239 141 239z"/>
+    </g>
+    <g transform="translate(400 330)">
+      <g transform="translate(0 180)">
+        <g transform="translate(40)">
+          <rect width="138" height="188" x="1" y="1" fill="#FFF" stroke="#1A1A1A" stroke-width="2" rx="8"/>
+          <text fill="#4A5568" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+            <tspan x="10.348" y="25">Substrategy C.1</tspan>
+          </text>
+          <rect width="118" height="138" x="11" y="41" fill="#FFF" stroke="#576BE3" stroke-width="2" rx="8"/>
+          <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+            <tspan x="31.754" y="65">AlgoStack</tspan>
+          </text>
+          <g transform="translate(20 80)">
+            <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+            <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+              <tspan x="25.344" y="25">Algo A</tspan>
+            </text>
+          </g>
+          <g transform="translate(20 130)">
+            <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+            <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+              <tspan x="25.477" y="25">Algo B</tspan>
+            </text>
+          </g>
+        </g>
+        <g transform="translate(0 230.5)">
+          <rect width="100" height="40" fill="#576BE3" rx="8"/>
+          <text fill="#FFF" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+            <tspan x="21.891" y="25">Asset E</tspan>
+          </text>
+        </g>
+        <g transform="translate(120 230.5)">
+          <rect width="100" height="40" fill="#576BE3" rx="8"/>
+          <text fill="#FFF" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+            <tspan x="22.078" y="25">Asset F</tspan>
+          </text>
+        </g>
+        <path fill="#1A1A1A" fill-rule="nonzero" d="M81.5 190L81.5 217 87.5 217 80.5 231 73.5 217 79.5 217 79.5 190 81.5 190zM141 189.5L141 216.5 147 216.5 140 230.5 133 216.5 139 216.5 139 189.5 141 189.5z"/>
+      </g>
+      <g transform="translate(220 180)">
+        <g transform="translate(20 180)">
+          <rect width="100" height="40" fill="#576BE3" rx="8"/>
+          <text fill="#FFF" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+            <tspan x="20.684" y="25">Asset G</tspan>
+          </text>
+        </g>
+        <rect width="138" height="138" x="1" y="1" fill="#FFF" stroke="#1A1A1A" stroke-width="2" rx="8"/>
+        <text fill="#4A5568" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+          <tspan x="9.129" y="25">Substrategy C.2</tspan>
+        </text>
+        <rect width="118" height="88" x="11" y="41" fill="#FFF" stroke="#576BE3" stroke-width="2" rx="8"/>
+        <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+          <tspan x="31.754" y="65">AlgoStack</tspan>
+        </text>
+        <g transform="translate(20 80)">
+          <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+          <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+            <tspan x="24.922" y="25">Algo D</tspan>
+          </text>
+        </g>
+        <path fill="#1A1A1A" fill-rule="nonzero" d="M71,139 L71,166 L77,166 L70,180 L63,166 L69,166 L69,139 L71,139 Z"/>
+      </g>
+      <g transform="translate(130)">
+        <rect width="138" height="138" x="1" y="1" fill="#FFF" stroke="#1A1A1A" stroke-width="2" rx="8"/>
+        <text fill="#4A5568" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+          <tspan x="16.18" y="25">Substrategy C</tspan>
+        </text>
+        <rect width="118" height="88" x="11" y="41" fill="#FFF" stroke="#576BE3" stroke-width="2" rx="8"/>
+        <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+          <tspan x="31.754" y="65">AlgoStack</tspan>
+        </text>
+        <g transform="translate(20 80)">
+          <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+          <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+            <tspan x="25.008" y="25">Algo C</tspan>
+          </text>
+        </g>
+      </g>
+      <path fill="#1A1A1A" fill-rule="nonzero" d="M161 139L161 166 167 166 160 180 153 166 159 166 159 139 161 139zM241 139L241 166 247 166 240 180 233 166 239 166 239 139 241 139z"/>
+    </g>
+    <g transform="translate(730 330)">
+      <rect width="100" height="40" fill="#576BE3" rx="8"/>
+      <text fill="#FFF" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+        <tspan x="30.922" y="25">Cash</tspan>
+      </text>
+    </g>
+    <path fill="#1A1A1A" fill-rule="nonzero" d="M361 259L361 281 101 281 101 316 107 316 100 330 93 316 99 316 99 279 359 279 359 259 361 259zM421 259L421 299 601 299 601 317 607 317 600 331 593 317 599 317 599 301 419 301 419 259 421 259z"/>
+    <path fill="#1A1A1A" fill-rule="nonzero" d="M441 259L441 279 781 279 781 316 787 316 780 330 773 316 779 316 779 281 439 281 439 259 441 259zM381 259L381 301 311 301 311 316 317 316 310 330 303 316 309 316 309 299 379 299 379 259 381 259z"/>
+  </g>
+</svg>

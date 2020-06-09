@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="360" viewBox="0 0 260 360">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="138" height="238" x="61" y="21" fill="#FFF" stroke="#1A1A1A" stroke-width="2" rx="8"/>
+    <text fill="#4A5568" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+      <tspan x="97.898" y="45">Strategy</tspan>
+    </text>
+    <g transform="translate(20 300)">
+      <rect width="100" height="40" fill="#576BE3" rx="8"/>
+      <text fill="#FFF" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+        <tspan x="21.266" y="25">Asset A</tspan>
+      </text>
+    </g>
+    <g transform="translate(140 300)">
+      <rect width="100" height="40" fill="#576BE3" rx="8"/>
+      <text fill="#FFF" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+        <tspan x="21.398" y="25">Asset B</tspan>
+      </text>
+    </g>
+    <rect width="118" height="188" x="71" y="61" fill="#FFF" stroke="#576BE3" stroke-width="2" rx="8"/>
+    <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+      <tspan x="91.754" y="85">AlgoStack</tspan>
+    </text>
+    <g transform="translate(80 100)">
+      <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+      <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+        <tspan x="25.344" y="25">Algo A</tspan>
+      </text>
+    </g>
+    <g transform="translate(80 150)">
+      <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+      <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+        <tspan x="25.477" y="25">Algo B</tspan>
+      </text>
+    </g>
+    <g transform="translate(80 200)">
+      <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+      <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+        <tspan x="25.008" y="25">Algo C</tspan>
+      </text>
+    </g>
+    <path fill="#1A1A1A" fill-rule="nonzero" d="M101.5 259.5L101.5 286.5 107.5 286.5 100.5 300.5 93.5 286.5 99.5 286.5 99.5 259.5 101.5 259.5zM161.5 259.5L161.5 286.5 167.5 286.5 160.5 300.5 153.5 286.5 159.5 286.5 159.5 259.5 161.5 259.5z"/>
+  </g>
+</svg>
