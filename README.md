@@ -1,2 +1,3 @@
-# docs
-Documentation for the gobacktest framework.
+# Docs
+
+Documentation and development discussions for the gobacktest framework.
