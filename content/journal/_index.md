@@ -1,4 +1,11 @@
+---
+title: "Journal"
+bookFlatSection: false
+bookCollapseSection: true
+---
+
 # Journal
+---
 
 Within this journal you will find articles and thoughts about the development and functionality of the **gobacktest** framework.
 
