@@ -24,7 +24,7 @@ jobs:
         run: rm -rf public
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --cleanDestinationDir --gc
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
