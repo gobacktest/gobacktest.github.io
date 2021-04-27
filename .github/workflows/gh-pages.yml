@@ -18,7 +18,10 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
-          # extended: true
+          extended: true
+
+      - name: Clean public directory
+        run: rm -rf public
 
       - name: Build
         run: hugo --minify
