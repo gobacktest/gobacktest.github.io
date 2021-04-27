@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v2.4.13
         with:
           hugo-version: 'latest'
           extended: true
@@ -24,7 +24,7 @@ jobs:
       #   run: rm -rf public
 
       - name: Build
-        run: hugo --minify --cleanDestinationDir --gc
+        run: hugo --minify #--cleanDestinationDir --gc
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
