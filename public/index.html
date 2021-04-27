@@ -1,0 +1,80 @@
+<!doctype html><html lang=en dir=ltr><head><meta name=generator content="Hugo 0.82.1"><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="gobacktest - Fundamental stock analysis backtesting #   An event-driven backtesting framework to test stock trading strategies based on fundamental analysis. Preferably this package will be the core of a backend service exposed via a REST API.
+Usage #  Example tests are in the /examples folder.
+package main import ( &#34;github.com/dirkolbrich/gobacktest/pkg/backtest&#34; &#34;github.com/dirkolbrich/gobacktest/pkg/data&#34; &#34;github.com/dirkolbrich/gobacktest/pkg/strategy&#34; ) func main() { // we need a new blanc backtester  test := backtest.New() // define the symbols to be tested and load them into the backtest  symbols := []string{&#34;TEST."><meta name=theme-color content="#FFFFFF"><meta property="og:title" content="Home"><meta property="og:description" content><meta property="og:type" content="website"><meta property="og:url" content="http://gobacktest.github.io/"><title>Home | gobacktest</title><link rel=manifest href=/manifest.json><link rel=icon href=/favicon.png type=image/x-icon><link rel=stylesheet href=/book.min.a6e33eff9fca295dda99115dabc387fd12b0e1282a347b6e4de6e73b19c96d91.css integrity="sha256-puM+/5/KKV3amRFdq8OH/RKw4SgqNHtuTebnOxnJbZE="><script defer src=/en.search.min.75d4dfad62684cc25594043b43b27c9afb1ade5fa4a830331290377b77eb79f7.js integrity="sha256-ddTfrWJoTMJVlAQ7Q7J8mvsa3l+kqDAzEpA3e3frefc="></script><link rel=alternate type=application/rss+xml href=http://gobacktest.github.io/index.xml title=gobacktest></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a href=/><span>gobacktest</span></a></h2><div class=book-search><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><ul><li><input type=checkbox id=section-01573ae56b57119294f09764e82a479c class=toggle>
+<label for=section-01573ae56b57119294f09764e82a479c class="flex justify-between"><a href=http://gobacktest.github.io/docs/architecture/>Architecture</a>
+<span>▾</span></label><ul></ul></li><li><input type=checkbox id=section-a4608b885780449d5ab724ddf47b8a02 class=toggle>
+<label for=section-a4608b885780449d5ab724ddf47b8a02 class="flex justify-between"><a href=http://gobacktest.github.io/docs/contribution/>Contribute</a>
+<span>▾</span></label><ul><li><a href=http://gobacktest.github.io/docs/contribution/development/>Contribute to Development</a></li><li><a href=http://gobacktest.github.io/docs/contribution/documentation/>Contribute to Documentation</a></li></ul></li></ul><ul><li><a href=https://github.com/gobacktest/gobacktest target=_blank rel=noopener>View on Github</a></li></ul></nav><script>(function(){var a=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/svg/menu.svg class=book-icon alt=Menu></label>
+<strong>Home</strong>
+<label for=toc-control></label></div></header><article class=markdown><h1 id=gobacktest---fundamental-stock-analysis-backtesting>gobacktest - Fundamental stock analysis backtesting
+<a class=anchor href=#gobacktest---fundamental-stock-analysis-backtesting>#</a></h1><hr><p>An event-driven backtesting framework to test stock trading strategies based on fundamental analysis. Preferably this package will be the core of a backend service exposed via a REST API.</p><h2 id=usage>Usage
+<a class=anchor href=#usage>#</a></h2><p>Example tests are in the <code>/examples</code> folder.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-golang data-lang=golang><span style=color:#f92672>package</span> <span style=color:#a6e22e>main</span>
+
+<span style=color:#f92672>import</span> (
+    <span style=color:#e6db74>&#34;github.com/dirkolbrich/gobacktest/pkg/backtest&#34;</span>
+    <span style=color:#e6db74>&#34;github.com/dirkolbrich/gobacktest/pkg/data&#34;</span>
+    <span style=color:#e6db74>&#34;github.com/dirkolbrich/gobacktest/pkg/strategy&#34;</span>
+)
+
+<span style=color:#66d9ef>func</span> <span style=color:#a6e22e>main</span>() {
+    <span style=color:#75715e>// we need a new blanc backtester
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>test</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>backtest</span>.<span style=color:#a6e22e>New</span>()
+
+    <span style=color:#75715e>// define the symbols to be tested and load them into the backtest
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>symbols</span> <span style=color:#f92672>:=</span> []<span style=color:#66d9ef>string</span>{<span style=color:#e6db74>&#34;TEST.DE&#34;</span>}
+    <span style=color:#a6e22e>test</span>.<span style=color:#a6e22e>SetSymbols</span>(<span style=color:#a6e22e>symbols</span>)
+
+    <span style=color:#75715e>// create a data provider and load the data into the backtest
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>data</span> <span style=color:#f92672>:=</span> <span style=color:#f92672>&amp;</span><span style=color:#a6e22e>data</span>.<span style=color:#a6e22e>BarEventFromCSVFile</span>{<span style=color:#a6e22e>FileDir</span>: <span style=color:#e6db74>&#34;../testdata/test/&#34;</span>}
+    <span style=color:#a6e22e>data</span>.<span style=color:#a6e22e>Load</span>(<span style=color:#a6e22e>symbols</span>)
+    <span style=color:#a6e22e>test</span>.<span style=color:#a6e22e>SetData</span>(<span style=color:#a6e22e>data</span>)
+
+    <span style=color:#75715e>// set the portfolio with initial cash and a default size and risk manager
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>portfolio</span> <span style=color:#f92672>:=</span> <span style=color:#f92672>&amp;</span><span style=color:#a6e22e>backtest</span>.<span style=color:#a6e22e>Portfolio</span>{}
+    <span style=color:#a6e22e>portfolio</span>.<span style=color:#a6e22e>SetInitialCash</span>(<span style=color:#ae81ff>10000</span>)
+
+    <span style=color:#a6e22e>sizeManager</span> <span style=color:#f92672>:=</span> <span style=color:#f92672>&amp;</span><span style=color:#a6e22e>backtest</span>.<span style=color:#a6e22e>Size</span>{<span style=color:#a6e22e>DefaultSize</span>: <span style=color:#ae81ff>100</span>, <span style=color:#a6e22e>DefaultValue</span>: <span style=color:#ae81ff>1000</span>}
+    <span style=color:#a6e22e>portfolio</span>.<span style=color:#a6e22e>SetSizeManager</span>(<span style=color:#a6e22e>sizeManager</span>)
+
+    <span style=color:#a6e22e>riskManager</span> <span style=color:#f92672>:=</span> <span style=color:#f92672>&amp;</span><span style=color:#a6e22e>backtest</span>.<span style=color:#a6e22e>Risk</span>{}
+    <span style=color:#a6e22e>portfolio</span>.<span style=color:#a6e22e>SetRiskManager</span>(<span style=color:#a6e22e>riskManager</span>)
+
+    <span style=color:#a6e22e>test</span>.<span style=color:#a6e22e>SetPortfolio</span>(<span style=color:#a6e22e>portfolio</span>)
+
+    <span style=color:#75715e>// create a new strategy with an algo stack
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>strategy</span> <span style=color:#f92672>:=</span> <span style=color:#a6e22e>gbt</span>.<span style=color:#a6e22e>NewStrategy</span>(<span style=color:#e6db74>&#34;basic&#34;</span>)
+    <span style=color:#a6e22e>strategy</span>.<span style=color:#a6e22e>SetAlgo</span>(
+        <span style=color:#a6e22e>algo</span>.<span style=color:#a6e22e>CreateSignal</span>(<span style=color:#e6db74>&#34;buy&#34;</span>), <span style=color:#75715e>// always create a buy signal on a data event
+</span><span style=color:#75715e></span>    )
+
+    <span style=color:#75715e>// create an asset and append to strategy
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>strategy</span>.<span style=color:#a6e22e>SetChildren</span>(<span style=color:#a6e22e>gbt</span>.<span style=color:#a6e22e>NewAsset</span>(<span style=color:#e6db74>&#34;TEST.DE&#34;</span>))
+
+    <span style=color:#75715e>// load the strategy into the backtest
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>test</span>.<span style=color:#a6e22e>SetStrategy</span>(<span style=color:#a6e22e>strategy</span>)
+
+    <span style=color:#75715e>// create an execution provider and load it into the backtest
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>exchange</span> <span style=color:#f92672>:=</span> <span style=color:#f92672>&amp;</span><span style=color:#a6e22e>backtest</span>.<span style=color:#a6e22e>Exchange</span>{}
+    <span style=color:#a6e22e>test</span>.<span style=color:#a6e22e>SetExchange</span>(<span style=color:#a6e22e>exchange</span>)
+
+    <span style=color:#75715e>// choose a statistic and load into the backtest
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>statistic</span> <span style=color:#f92672>:=</span> <span style=color:#f92672>&amp;</span><span style=color:#a6e22e>backtest</span>.<span style=color:#a6e22e>Statistic</span>{}
+    <span style=color:#a6e22e>test</span>.<span style=color:#a6e22e>SetStatistic</span>(<span style=color:#a6e22e>statistic</span>)
+
+    <span style=color:#75715e>// run the backtest
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>test</span>.<span style=color:#a6e22e>Run</span>()
+
+    <span style=color:#75715e>// print the result of the test
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>test</span>.<span style=color:#a6e22e>Stats</span>().<span style=color:#a6e22e>TotalEquityReturn</span>()
+}
+</code></pre></div><h2 id=dependencies>Dependencies
+<a class=anchor href=#dependencies>#</a></h2><p>None so far.</p><hr><h2 id=basic-components>Basic components
+<a class=anchor href=#basic-components>#</a></h2><p>These are the basic components of an event-driven framework.</p><ol><li>BackTester - general test case, bundles the following elements into a single test</li><li>EventHandler - the different types of events, which travel through this system - data event, signal event, order event and fill event</li><li>DataHandler - interface to a set of data, e.g historical quotes, fundamental data, dividends etc.</li><li>StrategyHandler - generates a buy/sell signal based on the data</li><li>PortfolioHandler - generates orders and manages profit & loss<ul><li>(SizeHandler) - manages the size of an order</li><li>(RiskHandler) - manages the risk allocation of a portfolio</li></ul></li><li>ExecutionHandler - sends orders to the broker and receives the “fills” or signals that the stock has been bought or sold</li><li>StatisticHandler - tracks all events during the backtests and calculates useful statistics like equity return, drawdown or sharp ratio etc., could be used to replay the complete backtest for later reference<ul><li>(ComplianceHandler) - tracks and documents all trades to the portfolio for compliance reasons</li></ul></li></ol><hr><h2 id=infrastructure-example>Infrastructure example
+<a class=anchor href=#infrastructure-example>#</a></h2><p>An overview of the infrastructure of a complete backtesting and trading environment. Taken from the production roadmap of <a href=https://www.quantrocket.com/#product-roadmap>QuantRocket</a>.</p><ul><li>General<ul><li>API gateway</li><li>configuration loader</li><li>logging service</li><li>cron service</li></ul></li><li>Data<ul><li>database backup and download service</li><li>securities master services</li><li>historical market data service</li><li>fundamental data service</li><li>earnings data service</li><li>dividend data service</li><li>real-time market data service</li><li>exchange calendar service</li></ul></li><li>Strategy<ul><li>performance analysis service - tearsheet</li></ul></li><li>Portfolio<ul><li>account and portfolio service</li><li>risk management service</li></ul></li><li>Execution<ul><li>trading platform gateway service</li><li>order management and trade ledger service</li><li>backtesting and trading engine</li></ul></li></ul><hr><h2 id=resources>Resources
+<a class=anchor href=#resources>#</a></h2><h3 id=articles>Articles
+<a class=anchor href=#articles>#</a></h3><p>These links to articles are a good starting point to understand the intentions and basic functions of an event-driven backtesting framework.</p><ul><li>Initial idea via a blog post <a href=https://www.datacamp.com/community/tutorials/finance-python-trading#backtesting>Python For Finance: Algorithmic Trading</a> by Karlijn Willems <a href=https://twitter.com/willems_karlijn>@willems_karlijn</a>.</li><li>Very good explanation of the internals of a backtesting system by Michael Halls-Moore <a href=https://twitter.com/mhallsmoore>@mhallsmoore</a> in the blog post series <a href=https://www.quantstart.com/articles/Event-Driven-Backtesting-with-Python-Part-I>Event-Driven-Backtesting-with-Python</a>.</li></ul><h3 id=other-backtesting-frameworks>Other backtesting frameworks
+<a class=anchor href=#other-backtesting-frameworks>#</a></h3><ul><li><a href=https://www.quantconnect.com>QuantConnect</a></li><li><a href=https://www.quantopian.com>Quantopian</a></li><li><a href=https://www.quantrocket.com>QuantRocket</a> - in development, available Q2/2018</li><li><a href=https://www.quandl.com>Quandl</a> - financial data</li><li><a href=https://www.quantstart.com/qstrader>QSTrader</a> - open-source backtesting framework from <a href=https://www.quantstart.com>QuantStart</a></li></ul><h3 id=general-information-on-quantitative-finance>General information on Quantitative Finance
+<a class=anchor href=#general-information-on-quantitative-finance>#</a></h3><ul><li><a href=http://quantocracy.com>Quantocracy</a> - forum for quant news</li><li><a href=https://www.quantstart.com>QuantStart</a> - articels and tutorials about quant finance</li></ul><hr></article><footer class=book-footer><div class="flex flex-wrap justify-between"><div><a class="flex align-center" href=https://github.com/gobacktest/gobacktest-docs/commit/df0579572b4ce0ec42dadff8cd1769e1aada72a6 title="Last modified by Dirk Olbrich | 26.04.2021" target=_blank rel=noopener><img src=/svg/calendar.svg class=book-icon alt=Calendar>
+<span>26.04.2021</span></a></div><div><a class="flex align-center" href=https://github.com/gobacktest/gobacktest-docs/edit/main/content/content/_index.md target=_blank rel=noopener><img src=/svg/edit.svg class=book-icon alt=Edit>
+<span>Edit this page</span></a></div></div></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div></main></body></html>

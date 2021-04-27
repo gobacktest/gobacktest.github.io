@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="130" viewBox="0 0 160 130">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="118" height="88" x="21" y="21" fill="#FFF" stroke="#576BE3" stroke-width="2" rx="8"/>
+    <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+      <tspan x="41.754" y="45">AlgoStack</tspan>
+    </text>
+    <g transform="translate(30 60)">
+      <rect width="100" height="40" fill="#BFBFBF" rx="8"/>
+      <text fill="#000" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+        <tspan x="32.992" y="25">Algo</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
