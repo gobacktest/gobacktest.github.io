@@ -32,7 +32,7 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
   BookToC = true
   # BookLogo = 'logo.png'
   BookSection = 'docs'
-  BookRepo = 'https://github.com/gobacktest/gobacktest-docs'
+  BookRepo = 'https://github.com/gobacktest/gobacktest.github.io'
   BookCommitPath = 'commit'
   BookEditPath = 'edit/main/content'
 
