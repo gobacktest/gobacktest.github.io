@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="240" viewBox="0 0 280 240">
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(20 100)">
+      <rect width="118" height="38" x="1" y="1" fill="#FFF" stroke="#1A1A1A" stroke-width="2" rx="8"/>
+      <text fill="#4A5568" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+        <tspan x="14.164" y="25">Substrategy</tspan>
+      </text>
+    </g>
+    <g transform="translate(100 20)">
+      <rect width="98" height="38" x="1" y="1" fill="#FFF" stroke="#1A1A1A" stroke-width="2" rx="8"/>
+      <text fill="#4A5568" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+        <tspan x="17.898" y="25">Strategy</tspan>
+      </text>
+    </g>
+    <g transform="translate(30 180)">
+      <rect width="100" height="40" fill="#576BE3" rx="8"/>
+      <text fill="#FFF" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+        <tspan x="21.266" y="25">Asset A</tspan>
+      </text>
+    </g>
+    <g transform="translate(160 100)">
+      <rect width="100" height="40" fill="#576BE3" rx="8"/>
+      <text fill="#FFF" font-family="SFProText-Regular, SF Pro Text" font-size="16">
+        <tspan x="21.398" y="25">Asset B</tspan>
+      </text>
+    </g>
+    <path fill="#1A1A1A" fill-rule="nonzero" d="M81.5 139.5L81.5 166.5 87.5 166.5 80.5 180.5 73.5 166.5 79.5 166.5 79.5 139.5 81.5 139.5zM121 59.5L121 86.5 127 86.5 120 100.5 113 86.5 119 86.5 119 59.5 121 59.5zM181 59.5L181 86.5 187 86.5 180 100.5 173 86.5 179 86.5 179 59.5 181 59.5z"/>
+  </g>
+</svg>
